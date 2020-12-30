@@ -1,0 +1,4 @@
+{
+    "name": {"type": "VARCHAR(255)", "default": "''"},
+    "value": {"type": "VARCHAR(255)", "default": "''"}
+}

@@ -1,0 +1,8 @@
+{
+    "name": {"type": "VARCHAR(255)", "default": "''"},
+    "description": {"type": "VARCHAR(255)", "default": "''"},
+    "group_id": {"type": "INT", "default":"-1"},
+    "member_type": {"type": "VARCHAR(255)", "default": "''"},
+    "member_id": {"type": "INT", "default":"-1"},
+    "quantity":{"type":  "INT", "default": "1"}
+}

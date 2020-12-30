@@ -1,0 +1,8 @@
+{
+    "name": {"type": "VARCHAR(255)", "default": "''"},
+    "description": {"type": "VARCHAR(255)", "default": "''"},
+    "item_id": {"type": "INT", "default":"-1"},
+    "owner_type": {"type": "VARCHAR(255)", "default": "''"},
+    "owner_id": {"type": "INT", "default":"-1"},
+    "quantity":{"type":  "INT", "default": "1"}
+}

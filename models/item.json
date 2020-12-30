@@ -1,0 +1,6 @@
+{
+    "name": {"type": "VARCHAR(255)", "default": "''"},
+    "description": {"type": "VARCHAR(255)", "default": "''"},
+    "game_id": {"type": "INT", "default":"-1"},
+    "creator_id":{"type":  "INT", "default": "-1"}
+}

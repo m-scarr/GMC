@@ -1,0 +1,9 @@
+{
+    "name": {"type": "VARCHAR(255)", "default": "''"},
+    "game_id": {"type": "INT", "default":"-1"},
+    "location_x":{"type":  "INT", "default": "-1"},
+    "location_y":{"type":  "INT", "default": "-1"},
+    "location_map_id":{"type":  "INT", "default": "-1"},
+    "creator_id":{"type":  "INT", "default": "-1"},
+    "marker":{"type": "VARBINARY(8000)", "default": "null"}
+}

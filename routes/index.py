@@ -1,0 +1,31 @@
+import routes.cache as cache
+import routes.enemy as enemy
+import routes.event as event
+import routes.game as game
+import routes.group as group
+import routes.group_member as group_member
+import routes.hero as hero
+import routes.inventory_item as inventory_item
+import routes.item as item
+import routes.locale as locale
+import routes.log as log
+import routes.npc as npc
+import routes.stat as stat
+import routes.user as user
+from sanic.response import json
+
+def run(app, db, c):
+    cache.run(app, db, c, json)
+    enemy.run(app, db, c, json)
+    event.run(app, db, c, json)
+    game.run(app, db, c, json)
+    group.run(app, db, c, json)
+    group_member.run(app, db, c, json)
+    hero.run(app, db, c, json)
+    inventory_item.run(app, db, c, json)
+    item.run(app, db, c, json)
+    locale.run(app, db, c, json)
+    log.run(app, db, c, json)
+    npc.run(app, db, c, json)
+    stat.run(app, db, c, json)
+    user.run(app, db, c, json)
